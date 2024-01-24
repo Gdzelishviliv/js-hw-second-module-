@@ -15,7 +15,7 @@
 //გამოიყენეთ if-else განცხადებები თითოეული კრიტერიუმის შესამოწმებლად და სიძლიერის შესაფასებლად.
 
 //4) დაწერეთ ფუქნცია სადაც პარამეტრად გავატანთ flowers და არგუმენტად გავატანთ ყვავილების სახეობებს.
-//და გვჭირდება რომ switch case დავწეროთ ლოგიკა რომ თუ შესაბამისი სახელის ყვავილები გვაქვს მაშინ დავაბრუნოთ console-ში 
+//და გვჭირდება რომ switch case დავწეროთ ლოგიკა რომ თუ შესაბამისი სახელის ყვავილები გვაქვს მაშინ დავაბრუნოთ console-ში
 //ეს ყვავილი ნაპოვნია!!
 
 //5)გვჭირდება სამი prompt.გვჭირდება რომ ამ სამ ინფუტში შემოყვანილი რიცხვებიდან რომელი არის უდიდესი ის დავიჭიროთ და დავლოგოთ უბრალოდ.
@@ -81,19 +81,33 @@
 // filterFlowers("violet");
 
 // (N5 Davaleba)
-function validateBigestNUm(num1,num2,num3) {
-    if (isNaN(num1)||isNaN(num2)||isNaN(num3)) {
-        return "!!!error::აქ რასაც ჩაწერთ უნდა იყოს რიცხვი!!!";
-    };
-    if(num1>=num2 && num1>=num3){
-        return `უდიდესი რიცხვია : ${num1}`;
-    }else if(num2>=num1 && num2>=num3){
-        return `უდიდესი რიცხვია : ${num2}`;
-    }else{
-       return `უდიდესი რიცხვია : ${num3}`;
-    }
-};
-const num1 = parseInt(prompt("ჩაწერეთ რაიმე რიცხვი"));
-const num2 = parseInt(prompt("ჩაწერეთ რაიმე რიცხვი"));
-const num3 = parseInt(prompt("ჩაწერეთ რაიმე რიცხვი"));
-console.log(validateBigestNUm(num1, num2, num3));
+// function validateBigestNUm(num1,num2,num3) {
+//     if (isNaN(num1)||isNaN(num2)||isNaN(num3)) {
+//         return "!!!error::აქ რასაც ჩაწერთ უნდა იყოს რიცხვი!!!";
+//     };
+//     if(num1>=num2 && num1>=num3){
+//         return `უდიდესი რიცხვია : ${num1}`;
+//     }else if(num2>=num1 && num2>=num3){
+//         return `უდიდესი რიცხვია : ${num2}`;
+//     }else{
+//        return `უდიდესი რიცხვია : ${num3}`;
+//     }
+// };
+// const num1 = parseInt(prompt("ჩაწერეთ რაიმე რიცხვი"));
+// const num2 = parseInt(prompt("ჩაწერეთ რაიმე რიცხვი"));
+// const num3 = parseInt(prompt("ჩაწერეთ რაიმე რიცხვი"));
+// console.log(validateBigestNUm(num1, num2, num3));
+
+// (lecture task)
+// const products = [
+//     { name: "Laptop", price: 999.99, category: "Electronics" },
+//     { name: "Coffee Maker", price: 49.99, category: "Kitchen Appliances" },
+//     { name: "Running Shoes", price: 89.99, category: "Sportswear" },
+//     { name: "Bluetooth Headphones", price: 199.99, category: "Electronics" },
+//     { name: "Novel - 'The Great Gatsby'", price: 15.99, category: "Books" },
+//   ];
+//   const totalPrice = products.reduce((total, sum) => {
+//     return total + sum.price;
+//   }, 0);
+//   console.log(totalPrice);
+  
