@@ -73,3 +73,46 @@
 //   }, 1000);
 // }
 // countDown();
+
+//(N5 Davaleba)
+// function calculateAge(birthDate) {
+//   var birthDateObj = new Date(birthDate);
+//   var today = new Date();
+//   var age = today.getFullYear() - birthDateObj.getFullYear();
+//   if (
+//     today.getMonth() < birthDateObj.getMonth() ||
+//     (today.getMonth() === birthDateObj.getMonth() &&
+//       today.getDate() < birthDateObj.getDate())
+//   ) {
+//     age--;
+//   }
+//   return age;
+// }
+// var birthDateInput = prompt(
+//   "ჩაწერეთ თქვენი დაბადების თარიღი მაგალითად 2003-07-26"
+// );
+// try {
+//   var age = calculateAge(birthDateInput);
+//   alert("თქვენ ხართ" + " " + age + " " + "წლის.");
+// } catch (error) {
+//   alert(
+//     "E-R-R-O-R :: გთხოვთ სწორად ჩაწეროთ თქვენი დაბადების თარიღი (მაგ. 2003-07-26)."
+//   );
+// }
+
+//(N6 Davaleba)
+function getDayOfWeek() {
+  var daysOfWeek = [
+    "კვირა",
+    "ორშაბათი",
+    "სამშაბათი",
+    "ოთხშაბათი",
+    "ხუთშაბათი",
+    "პარასკევი",
+    "შაბათი",
+  ];
+  var currentDayIndex = new Date().getDay();
+  var currentDay = daysOfWeek[currentDayIndex];
+  console.log("დღეს არის"+" "+ currentDay);
+}
+getDayOfWeek();
