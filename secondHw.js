@@ -101,18 +101,53 @@
 // }
 
 //(N6 Davaleba)
-function getDayOfWeek() {
-  var daysOfWeek = [
-    "კვირა",
-    "ორშაბათი",
-    "სამშაბათი",
-    "ოთხშაბათი",
-    "ხუთშაბათი",
-    "პარასკევი",
-    "შაბათი",
-  ];
-  var currentDayIndex = new Date().getDay();
-  var currentDay = daysOfWeek[currentDayIndex];
-  console.log("დღეს არის"+" "+ currentDay);
-}
-getDayOfWeek();
+// function getDayOfWeek() {
+//   var daysOfWeek = [
+//     "კვირა",
+//     "ორშაბათი",
+//     "სამშაბათი",
+//     "ოთხშაბათი",
+//     "ხუთშაბათი",
+//     "პარასკევი",
+//     "შაბათი",
+//   ];
+//   var currentDayIndex = new Date().getDay();
+//   var currentDay = daysOfWeek[currentDayIndex];
+//   console.log("დღეს არის"+" "+ currentDay);
+// }
+// getDayOfWeek();
+
+// (lecture task)
+// დაწერეთ ფუნქცია რომლის მიხედვითაც პარამეტრად უნდა მივიღოთ productId,
+// და ახალი category მაგალითად Electronics რომლის
+// მიხედვითაც განვაახლებთ იმ product რომლის id მოგვივა.გამოიყენეთ map და if else.
+// const products = [
+//   {
+//     id: 1,
+//     title: "Product A",
+//     price: 9.99,
+//     category: "Clothing",
+//   },
+//   {
+//     id: 2,
+//     title: "Product B",
+//     price: 19.99,
+//     category: "Books",
+//   },
+//   {
+//     id: 3,
+//     title: "Product C",
+//     price: 29.99,
+//     category: "Clothing",
+//   },
+//   {
+//     id: 4,
+//     title: "Product C",
+//     price: 29.99,
+//     category: "Books",
+//   },
+// ];
+// function dataUpdate(productId,changeCategory) {
+  
+  
+// }
